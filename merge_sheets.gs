@@ -1,6 +1,8 @@
 /*
 Code for merging all sheets into one sheet.
 https://docs.google.com/spreadsheets/d/1yAmq-NcgbmzEEn0oG7A1cUjRHuYkjs39OBlFUx2aNX4
+copyright Eric Chow 2020
+
 */
 
 function combineData(){
