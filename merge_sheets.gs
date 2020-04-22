@@ -6,15 +6,15 @@ copyright Eric Chow 2020
 */
 
 function combineData(){
- var doc = SpreadsheetApp.getActiveSpreadsheet();
- var sheets = doc.getSheets(); // get all the sheets
- var outSheet = doc.getSheetByName("combined"); // set where we want to write the results
+  var doc = SpreadsheetApp.getActiveSpreadsheet();
+  var sheets = doc.getSheets(); // get all the sheets
+  var outSheet = doc.getSheetByName("combined"); // set where we want to write the results
 
- var result = [];
+  var result = [];
  for (i in sheets){ // loop across all the sheets
 //   if (sheets[i].getSheetName().substring(0,1) == "_"){ // if sheetname starts with 'follower' then
-     var target = sheets[i].getSheetName(); // extract users name for target column
-     var data = sheets[i].getRange("A1:G9").getValues(); // get data in rage
+      var target = sheets[i].getSheetName(); // extract users name for target column
+      var data = sheets[i].getRange("A1:G9").getValues(); // get data in rage
 //   }
 
  }
